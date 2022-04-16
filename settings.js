@@ -15,13 +15,13 @@ global.APIKeys = {
 global.autoread = true // auto read pesan / message
 global.autorecording = false //status auto merekam ( auto record )
 global.autoketik = false //status auto mengetik (auto typing)
-global.available = false //status online (online)
+global.available = true //status online (online)
 
 // Other
 global.botname = "Sabo Botz" //namabot kalian
 global.ownername= "Sabo Ofc" //nama kalian
 global.myweb ="https://tiktok.com/@dzyjustforyou/" //bebas asal jan hapus
-global.youtube = "Gapunya youtube banh" //bebas asal jan hapus
+global.youtube = "https://youtube.com/channel/UCPVHqM42eOQNMTptryIa2dQ" //bebas asal jan hapus
 global.github = "https://sabo-ofc.github.io/" //bebas
 global.email = "saboofc@gmail.com" //bebas
 global.region = "Indonesia" //bebas
