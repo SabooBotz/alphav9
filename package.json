@@ -19,7 +19,7 @@
     "baileys-md",
     "bot"
   ],
-  "author": "ZeeoneOfc",
+  "author": "Sabo",
   "license": "MIT",
   "dependencies": {
     "@adiwajshing/baileys-md": "github:adiwajshing/baileys#multi-device",
