@@ -698,7 +698,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 alpha.sendText(m.chat, `Link Group : *${groupMetadata.subject}*\nhttps://chat.whatsapp.com/${response}`, m, { detectLink: true })
             }
             break
-            case 'delete': case 'del': {
+            case 'delete': case 'del': case 'd': {
             	if (!m.key.fromMe && !isCreator) throw mess.owner
                 if (!m.quoted) throw false
                 let { chat, fromMe, id, isBaileys } = m.quoted
@@ -1234,7 +1234,7 @@ break
                 tekss += `\n⋙ *${botname}* ⋘`
                 alpha.sendMessage(from, { text: tekss, mentions: participants.map(a => a.id) }, { quoted: fkontak })
             break
-            case 'hidetag':
+            case 'hidetag': case 'h': 
                 if (!m.isGroup) return reply(lang.groupOnly())
                 if (!(isGroupAdmins || isGroupOwner )) return reply(lang.adminOnly())
                 alpha.sendMessage(from, { text : q ? q : '' , mentions: participants.map(a => a.id)}, {quoted: fkontak})
